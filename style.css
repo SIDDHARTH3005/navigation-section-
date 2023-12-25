@@ -1,0 +1,114 @@
+/* ========================START OF CODE=============================== */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+}
+/* -------------------------------------------------- */
+:root {
+    --background-color:#fff;/* Define a root variable for color */
+    --nav-color:#212832 ; /* Define a root variable for color */
+   
+
+}
+/*---------------------------------------  */
+body{
+    background:var(--background-color);
+    font-family: 'Montserrat', sans-serif;
+}
+/*========================================================  */
+nav{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: var(--nav-color) ;
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 1 20px 35px rgba(250, 249, 249, 0);
+}
+/* =================================================================== */
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+}
+.logo span{
+    font-weight: bold;
+    padding: 15px;
+    font-size: 3rem;
+   
+
+}
+/* ------------------------------------------------------ */
+a{
+    position:relative;
+    color: rgb(248, 247, 247);
+    font-size: 1.6rem;
+    display: table;
+    width: 300px;
+    padding: 10px;
+}
+/* --------------------------------------------- */
+.fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 2rem;
+    text-align: left;
+}
+/*=======================================  */
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+/*===========================================  */
+a:hover{
+    background: var(--background-color);
+    color: var(--nav-color);
+}
+nav:hover{
+    width: 280px;
+    transition: all 0.5s ease;
+}
+/*----------------------------------------------  */
+.log-out{
+    position: absolute;
+    bottom: 30px;
+}
+.logout{
+    position: absolute;
+    bottom: 90px;
+}
+/*=====================END OF CODE================================  */
+/* .table-navigation{
+   align-items: center;
+    display: flex;
+    transition: all 0.5s ease;
+    background: #c4c6c9;
+    height: 110px;
+    display: flex;
+}
+.Text-table{
+    
+    position: relative;
+    left: 400px;
+    top: 10px;
+}
+.Text-table p{
+    font-size: 3rem;
+    font-weight: 500;
+    font-style: bold;
+}
+.Text-table span{
+    text-align: left;
+    padding-left:40px;
+    font-size: 3rem;
+} */
+
